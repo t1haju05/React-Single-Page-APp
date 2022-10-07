@@ -12,7 +12,6 @@ function App() {
   return (
     <>
     <NavBar />
-    <Footer />
     <Header />
     <div className='container'>
       <Routes>
@@ -21,8 +20,8 @@ function App() {
         <Route path="/contact-us" element={<ContactUs/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
-
     </div>
+    <Footer />
     </>
   );
 }
